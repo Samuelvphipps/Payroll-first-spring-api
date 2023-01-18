@@ -1,3 +1,6 @@
+//This is the creation of the Employee object for the server and eventually for the DB ORM baby!
+
+
 package payroll;
 
 import jakarta.persistence.Entity;
@@ -23,7 +26,10 @@ class Employee{
     //'role'/
     private String role;
 
+    //constructore created when need to create a new instance but dont yet have an id
     Employee() {};
+
+    //Spring data JPA hands db interactions YAY
 
     Employee(String name, String role){
         this.name = name;
