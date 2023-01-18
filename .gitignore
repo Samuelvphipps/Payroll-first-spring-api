@@ -37,3 +37,4 @@ out/
 .vscode/
 
 ./main/java/resources/application.properties
+application.properties
