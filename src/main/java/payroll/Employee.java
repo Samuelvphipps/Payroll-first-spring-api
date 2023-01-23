@@ -30,7 +30,6 @@ class Employee{
     Employee() {};
 
     //Spring data JPA hands db interactions YAY
-
     Employee(String name, String role){
         this.name = name;
         this.role = role;

@@ -16,6 +16,7 @@ class LoadDatabase {
     //Srping Boot will run ALL CommandLineRunner beans once the app context is loaded
     //This runner will request a copy of the EmployeeRepository I just created in EmployeeRepository.java
     //Will then store the args in the repository
+    //why does this declare?
     CommandLineRunner initDatabase(EmployeeRepository repository){
 
         return args -> {
